@@ -1,46 +1,55 @@
-# Getting Started with Create React App
+# Mapbox-3D-Render
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+3D-MapSnap is a React project that allows users to choose a location on a Mapbox map, display the visible region, and then capture it as an image to apply as a texture to a 3D cuboid using BabylonJs.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Mapbox integration for choosing a location and displaying the visible region
+- Capture the visible region as an image and apply it as a texture to a 3D cuboid
+- Customizable size and position of the cuboid
 
-### `npm start`
+## How to Use
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Click on the map to choose a location.
+2. Use the zoom and pan controls to adjust the visible region of the map.
+3. Click the "Capture" button to capture the visible region as an image.
+4. Use the sliders to adjust the size and position of the 3D cuboid.
+5. The captured image will be applied as a texture to the cuboid in real-time.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Built with
 
-### `npm test`
+- ReactJs
+- Mapbox
+- BabylonJs
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Run Locally
 
-### `npm run build`
+Clone the project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+  git clone https://github.com/rkranjeet/Mapbox-3D-Render.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Go to the project directory
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+  cd Mapbox-3D-Render.git
+```
 
-### `npm run eject`
+Install dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+  npm install
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Start the server
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+  npm run start
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Environment Variables
 
-## Learn More
+To run this project, you will need to add the following environment variables to your .env file
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+`MAPBOX_API_TOKEN=`
