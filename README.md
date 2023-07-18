@@ -8,6 +8,10 @@
 - Capture the visible region as an image and apply it as a texture to a 3D cuboid
 - Customizable size and position of the cuboid
 
+## Demo
+
+You can access the live version: https://mapbox-3d-render.netlify.app/
+
 ## How to Use
 
 1. Click on the map to choose a location.
